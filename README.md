@@ -64,28 +64,6 @@ Getting that level of performance requires carefully tuning many other network c
 Update the `README.md` file so that the test case badges point to your repo.
 Completing each of the tasks below should cause the badges to change from red to green.
 
-**Task 1:**
-
-The `wardial` function currently contains failing doctests,
-as seen by the command:
-```
-$ python3 -m doctest wardial.py
-```
-Find the `FIXME (Task 1)` comment inside the `wardial` function,
-and follow the instructions to make the doctests pass.
-Note that the doctests can take up to an hour to run,
-and it is okay to move onto task 2 without waiting for the doctests to finish.
-
-**Task 2:**
-
-Unfortunately, the code is still extremely slow.
-Even though we have functions labeled `async` and we are `await`ing them,
-we are not doing it correctly,
-and the web requests are not happening concurrently.
-
-Find the `FIXME (Task 2)` comment inside the `_wardial_async` function,
-and follow the instructions to enable concurrency.
-
 ## Submission
 
 Once the test cases pass and the badges turn green, submit your github url to sakai.
